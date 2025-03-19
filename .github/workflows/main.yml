@@ -1,10 +1,10 @@
-name: Build-and-test
+name: loginverse-Server
 on:
   push:
     branches:
       - user-registration 
 jobs:
-  PetBuddy:
+  Build-and-test:
     runs-on: macos-latest
     steps:
       - name: Check Git version
