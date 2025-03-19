@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - user-registration 
-
 jobs:
   PetBuddy:
     runs-on: macos-latest
@@ -20,5 +19,3 @@ jobs:
       - name: Run tests
         run: |
           npm test
-      - name: Build the project
-        run: npm run build
